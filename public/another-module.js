@@ -19,6 +19,6 @@ const bree = new HobbitSettlement(
 
 const buckland = new HobbitSettlement('Buckland', 2340, 'Gorhendad Oldbuck');
 
-const statement = () => `${theShire.name} was founded ${ buckland.founding - theShire.founding } years before ${buckland.name}.`;
+const statement = () => `${theShire.name} was founded ${buckland.founding - theShire.founding} years before ${buckland.name}.`;
 
 export { theShire, buckland, HobbitSettlement };
