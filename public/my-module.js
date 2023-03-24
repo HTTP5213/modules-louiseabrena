@@ -17,6 +17,6 @@ const bree = new HobbitSettlement(
   'Atanatári who did not reach Beleriand',
 );
 
-const statement = () => `${theShire.name} was founded ${ buckland.founding - theShire.founding } years before ${buckland.name}.`;
+const statement = () => `${theShire.name} was founded ${buckland.founding - theShire.founding} years before ${buckland.name}.`;
 
 export { theShire, statement };
